@@ -20,7 +20,7 @@ function secondsToMinutesSeconds(seconds) {
 async function getSongs(folder) {
     currFolder = folder;
     try {
-        let a = await fetch(`https://sptfycloneweb.netlify.app/${folder}`);
+       let a = await fetch(`https://sptfycloneweb.netlify.app/songs/Uplifting_(mood)`);
         if (!a.ok) {
             throw new Error(`HTTP error! Status: ${a.status}`);
         }
