@@ -19,7 +19,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(https://sptfycloneweb.netlify.app/${folder});
+    let a = await fetch(`https://sptfycloneweb.netlify.app/${folder}`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -99,7 +99,7 @@ async function displayAlbums() {
       if (e.href.includes("/songs/") && !e.href.includes(".htaccess")) {
         let folder = e.href.split("/").slice(-1)[0];
         // Get the metadata of the folder
-        let a = await fetch(`/${folder}/info.json`);
+        let a = await fetch(`https://sptfycloneweb.netlify.app/${folder}/info.json`);
         let response = await a.json();
         cardContainer.innerHTML += `
                     <div data-folder="${folder}" class="card">
