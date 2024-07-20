@@ -19,7 +19,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`/${folder}/`);
+    let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -87,7 +87,7 @@ const playMusic = (track, pause = false) => {
 async function displayAlbums() {
   console.log("displaying albums");
   try {
-    let a = await fetch(`/songs/`);
+    let a = await fetch(`http://127.0.0.1:5500/songs/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -110,7 +110,7 @@ async function displayAlbums() {
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <img src="https://sptfycloneweb.netlify.app/songs/${folder}/cover.jpg" alt="">
+                        <img src="http://127.0.0.1:5500/${folder}/cover.jpg" alt="">
                         <h2>${response.title}</h2>
                         <p>${response.description}</p>
                     </div>`;
