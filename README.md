@@ -19,11 +19,6 @@ Check out the live demo of the project [here](https://sptfyclnweb.netlify.app/).
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/)
-- [Git](https://git-scm.com/)
-
 ### Installation
 
 1. Clone the repository:
