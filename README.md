@@ -24,7 +24,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/spotify-clone.git
+    git clone https://github.com/Prathmesh483/spotify-clone.git
     ```
 
 2. Navigate into the project directory:
