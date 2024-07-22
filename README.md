@@ -13,7 +13,7 @@ Welcome to the Spotify Clone, a fully functional client-side web application whe
 
 ## Live Demo
 
-Check out the live demo of the project [here]([https://carvanmusic.netlify.app/](https://sptfywebclone.freewebhostmost.com/))
+Check out the live demo of the project [here]([https://sptfywebclone.freewebhostmost.com/])
 
 ## Getting Started
 
