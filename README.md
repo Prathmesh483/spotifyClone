@@ -35,15 +35,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 3. Open the `index.html` file in your favorite web browser or serve the project using a local server.
 
-### Hosting
-
-The project is hosted on Netlify. To host your own version:
-
-1. Sign up for a [Netlify](https://www.netlify.com/) account.
-2. Connect your GitHub repository.
-3. Set the base directory to the root of your project.
-4. Deploy your site.
-
 ## Acknowledgments
 
 - Inspired by [Spotify](https://www.spotify.com/)
